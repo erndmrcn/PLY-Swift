@@ -20,7 +20,7 @@ let package = Package(
     targets: [
         .target(
             name: "CPLY",
-            path: "CPLY",
+            path: ".",
             sources: [
                 "wrapper.cpp",
                 "miniply.cpp"
